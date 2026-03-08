@@ -39,7 +39,7 @@
 3. Поддерживаемые форматы: Excel (.xlsx, .xls), CSV (.csv)
 4. После загрузки автоматически отобразится структура файла
 
-<img width="1227" height="571" alt="image" src="https://github.com/user-attachments/assets/e90e786b-df42-47ee-9564-ef3689bb8f2c" />
+<img width="884" height="392" alt="4" src="https://github.com/user-attachments/assets/d75cc69f-281a-460c-94b5-d083a1f61a02" />
 
 ### Шаг 2: Загрузка метаданных 1С
 
@@ -48,7 +48,7 @@
 3. Система автоматически распакует архив и обработает все XML-файлы
 4. После загрузки отобразится структура объектов конфигурации
 
-<img width="1243" height="302" alt="image" src="https://github.com/user-attachments/assets/2733785c-91ec-48b2-ba4c-d89609bd2a72" />
+<img width="890" height="751" alt="3" src="https://github.com/user-attachments/assets/47ce9fde-07b6-4c23-b440-d68599e595bb" />
 
 ### Шаг 3: Создание связей (мэппинга)
 
@@ -57,7 +57,7 @@
 3. Нажмите **"Создать"**
 4. Связь появится в таблице мэппинга
 
-<img width="785" height="853" alt="image" src="https://github.com/user-attachments/assets/ea829248-d790-4d53-82e4-59bfa2430e16" />
+11
 
 ### Шаг 4: Настройка параметров загрузки
 
@@ -67,8 +67,8 @@
 4. Выберите режим записи объекта (автоматически или в коде алгоритма)
 5. При необходимости добавьте произвольные алгоритмы обработки
 
-<img width="341" height="198" alt="image" src="https://github.com/user-attachments/assets/9a61fcbe-fd0f-4a31-820b-41efa94abb7d" />
-<img width="712" height="971" alt="image" src="https://github.com/user-attachments/assets/58675478-b09d-4bbc-9e8f-5ad14209edf8" />
+<img width="436" height="259" alt="image" src="https://github.com/user-attachments/assets/2583a70b-a056-4729-87dd-f8d2686fd8b9" />
+<img width="765" height="968" alt="image" src="https://github.com/user-attachments/assets/f51e20de-239b-4ffd-ba79-a5a01d902be1" />
 
 ### Шаг 5: Сохранение и экспорт
 
@@ -76,7 +76,7 @@
 2. Или **"Экспорт мэппинга"** для скачивания JSON файла
 3. Для документации используйте **"Экспорт в Word"**
 
-<img width="1328" height="74" alt="image" src="https://github.com/user-attachments/assets/47a957b8-3b1c-4255-a3b2-c6ba77f6cc2f" />
+<img width="1621" height="91" alt="image" src="https://github.com/user-attachments/assets/5f33fb66-b4aa-4313-8c6c-33e10e145263" />
 
 ---
 
@@ -90,7 +90,7 @@
 - **Колонка группировки строк**: Объединение нескольких строк файла в один объект 1С (нужно при загрузке табличных частей)
 - **Визуализация структуры**: Древовидное отображение колонок файла с примерами значений
 
-<img width="1227" height="571" alt="image" src="https://github.com/user-attachments/assets/e90e786b-df42-47ee-9564-ef3689bb8f2c" />
+<img width="884" height="392" alt="4" src="https://github.com/user-attachments/assets/d75cc69f-281a-460c-94b5-d083a1f61a02" />
 
 ### 🔗 Создание связей (мэппинг)
 
@@ -98,7 +98,7 @@
 - **Автоматический поиск**: Система предлагает подходящие реквизиты 1С
 - **Валидация в реальном времени**: Проверка совместимости типов данных
 
-<img width="2281" height="150" alt="image" src="https://github.com/user-attachments/assets/c9b4adb7-8edd-4f27-bd1e-c724505a7892" />
+<img width="745" height="689" alt="image" src="https://github.com/user-attachments/assets/6163a01a-a04a-4f5c-af24-03aba587c738" />
 
 ### 🔍 Работа с метаданными 1С
 
@@ -107,7 +107,7 @@
 - **Создание связей из метаданных**: Клик по реквизиту в метаданных для создания связи
 - **Автоматическое обновление списка**: Реквизиты из метаданных доступны для выбора
 
-<img width="1200" height="632" alt="image" src="https://github.com/user-attachments/assets/ef057f99-aaff-4fab-9773-a23c502a7527" />
+<img width="890" height="751" alt="3" src="https://github.com/user-attachments/assets/47ce9fde-07b6-4c23-b440-d68599e595bb" />
 
 ### ⚙️ Настройки загрузки
 
@@ -128,7 +128,7 @@
 - **Экспорт в Word**: Генерация документации в формате .doc для технического задания
 - **Загрузка мэппинга**: Восстановление ранее сохраненных настроек
 
-<img width="786" height="643" alt="image" src="https://github.com/user-attachments/assets/afa232f4-eb92-4dcd-ba26-017214ef6eb5" />
+<img width="1621" height="91" alt="image" src="https://github.com/user-attachments/assets/5f33fb66-b4aa-4313-8c6c-33e10e145263" />
 
 ### 🚀 Генерация обработки для 1С
 
@@ -136,7 +136,7 @@
 - **Готовый код загрузки**: Обработка содержит весь необходимый код для загрузки данных
 - **Настройки из мэппинга**: Все параметры автоматически применяются в обработке
 
-<img width="1005" height="248" alt="image" src="https://github.com/user-attachments/assets/15556f64-dafc-43ef-bd0c-bcd12fcda6d8" />
+<img width="884" height="180" alt="11" src="https://github.com/user-attachments/assets/830831d2-004c-4f2c-a51d-6ecbaabd9cf8" />
 
 ---
 
@@ -507,6 +507,7 @@ A: Да, обработка содержит стандартный код 1С, 
 
 **Версия документации:** 1.2
 **Последнее обновление:** 2026/03/05
+
 
 
 
