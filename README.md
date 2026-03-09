@@ -57,7 +57,7 @@
 3. Нажмите **"Создать"**
 4. Связь появится в таблице мэппинга
 
-11
+<img width="771" height="1008" alt="image" src="https://github.com/user-attachments/assets/98026213-b879-49d5-be78-a3e776d3f204" />
 
 ### Шаг 4: Настройка параметров загрузки
 
@@ -119,7 +119,8 @@
 - **Настройки табличных частей**: Условие добавления строки ТЧ (всегда / если заполнены колонки)
 - **Произвольные алгоритмы**: Код обработки объекта перед записью
 
-<img width="768" height="1192" alt="image" src="https://github.com/user-attachments/assets/2ba23982-bbe1-49d0-aa92-fae7051238c2" />
+<img width="761" height="1074" alt="image" src="https://github.com/user-attachments/assets/4ca00a0d-6613-40b9-9c5f-00fa4246c78e" />
+<img width="783" height="886" alt="image" src="https://github.com/user-attachments/assets/e8e8a163-fcb5-4e42-9efb-30046d9f7e76" />
 
 ### 💾 Сохранение и экспорт
 
@@ -179,7 +180,7 @@
    - Нажмите "Сохранить мэппинг" для работы в браузере
    - Или "Экспорт мэппинга" для передачи коллегам
 
-<img width="2506" height="856" alt="image" src="https://github.com/user-attachments/assets/dadb6109-d942-4564-a4e4-5057f62aba6e" />
+<img width="2385" height="1019" alt="image" src="https://github.com/user-attachments/assets/fa36e7c1-f85b-4f72-91cd-7753efcb6deb" />
 
 #### Использование в 1С
 
@@ -189,7 +190,7 @@
 4. Нажмите "Предварительный просмотр" для проверки
 5. Нажмите "Загрузить" для выполнения загрузки
 
-<img width="1005" height="248" alt="image" src="https://github.com/user-attachments/assets/15556f64-dafc-43ef-bd0c-bcd12fcda6d8" />
+<img width="884" height="180" alt="11" src="https://github.com/user-attachments/assets/830831d2-004c-4f2c-a51d-6ecbaabd9cf8" />
 
 ---
 
@@ -201,7 +202,7 @@
 2. Выберите метод заполнения "Значение перечисления"
 3. Выберите нужное значение из списка
 
-<img width="790" height="988" alt="image" src="https://github.com/user-attachments/assets/6b3b4423-1784-4757-9c46-73281dc2e4a6" />
+<img width="770" height="759" alt="image" src="https://github.com/user-attachments/assets/cb141598-2480-45a4-aa6a-2e83d27ba708" />
 
 ---
 
@@ -217,7 +218,7 @@
    КонецЕсли;
    ```
 
-<img width="763" height="244" alt="image" src="https://github.com/user-attachments/assets/3109064b-cc85-421f-8799-be917c65854c" />
+<img width="765" height="306" alt="image" src="https://github.com/user-attachments/assets/f1d0e2ed-a04c-40ef-9e53-9abb26426cfe" />
 
 #### Алгоритм как способ заполнения реквизита
 
@@ -226,17 +227,17 @@
 1. Кликните на реквизит для создания связи
 2. Выберите способ заполнения **"Алгоритм"**
 3. В редакторе кода введите алгоритм на языке 1С, например:
-   ```1c
-   // Доступные переменные:
-   // Результат - значение реквизита (необходимо присвоить)
-   // СтрокаДанных - обрабатываемая строка файла
-
-   Результат = СокрЛП(СтрокаДанных.Колонка1) + " " + СокрЛП(СтрокаДанных.Колонка2);
-   ```
+  ```1c
+  // Доступные переменные:
+  // Результат - значение реквизита
+  // СтрокаДанных - обрабатываемая строка файла
+  // Объект - обрабатываемый объект
+  Результат = СокрЛП(СтрокаДанных.Колонка1) + " " + СокрЛП(СтрокаДанных.Колонка2);
+  ```
 
 > **Когда использовать:** Алгоритм полезен, когда значение реквизита нельзя просто скопировать из файла — например, нужно объединить несколько колонок, выполнить расчёт или преобразование значения.
 
-<img width="764" height="258" alt="image" src="https://github.com/user-attachments/assets/0942f3d3-29c2-4c24-81b1-b16ded27bf47" />
+<img width="762" height="252" alt="image" src="https://github.com/user-attachments/assets/1dadea15-8317-4519-99bb-74d6f2da6b4e" />
 
 ---
 
@@ -252,7 +253,7 @@
 
 > **Пример:** Документ «Поступление товаров» занимает несколько строк Excel — у всех строк одного документа одинаковый номер в колонке «НомерДокумента». Задав эту колонку как колонку группировки, обработка создаст один документ со всеми строками табличной части, а не отдельный документ на каждую строку файла.
 
-<img width="340" height="275" alt="image" src="https://github.com/user-attachments/assets/89e6abc8-212d-489e-81cb-63a11aaff0a7" />
+<img width="1223" height="139" alt="image" src="https://github.com/user-attachments/assets/b79fb7b7-d93e-4cf6-9a63-284564728a37" />
 
 #### CSV файлы
 
@@ -266,7 +267,7 @@
 
 > **Пример:** Для загрузки договоров контрагентов можно настроить поиск по сочетанию реквизитов «Номер» и «Контрагент» — система найдёт существующий договор с таким номером у указанного контрагента и обновит его данные.
 
-<img width="529" height="156" alt="image" src="https://github.com/user-attachments/assets/dcbb0ce2-51d2-41af-857b-45d8bb59f7bd" />
+<img width="575" height="676" alt="image" src="https://github.com/user-attachments/assets/6e209389-90ab-46bc-ae0b-adabe6eac249" />
 
 ### Обязательность реквизита
 
@@ -283,7 +284,7 @@
 - **Пропускать**: Пропустить строку, если не заполнены обязательные поля
 - **Прекратить**: Прервать загрузку при первой ошибке
 
-<img width="329" height="170" alt="image" src="https://github.com/user-attachments/assets/20a4335c-3acc-4079-8989-8f7aa7915423" />
+<img width="395" height="169" alt="image" src="https://github.com/user-attachments/assets/0ec88dbe-0ec4-44e3-8b5c-0e1d0f567255" />
 
 ### Режим записи объекта
 
@@ -304,7 +305,7 @@
 > КонецЕсли;
 > ```
 
-<img width="274" height="172" alt="image" src="https://github.com/user-attachments/assets/a95680e0-8e55-4545-bfa5-164eb652c1fa" />
+<img width="749" height="460" alt="image" src="https://github.com/user-attachments/assets/4e9883c7-b9ac-4987-be04-863063f5e6ca" />
 
 ### Настройки табличных частей
 
@@ -319,7 +320,7 @@
 
 > **Пример:** Документ содержит как основные реквизиты (шапку), так и строки товаров. Если в некоторых строках файла нет данных по товарам (колонки «Номенклатура» и «Количество» пустые), можно настроить условие «Если заполнены колонки» — строка ТЧ «Товары» будет добавляться только когда эти колонки заполнены.
 
-<img width="772" height="773" alt="image" src="https://github.com/user-attachments/assets/9f416238-1a67-4b51-80b8-27d751f79bc1" />
+<img width="790" height="465" alt="image" src="https://github.com/user-attachments/assets/b6586a3e-bcde-4880-b412-9376eb26381f" />
 
 ### Методы заполнения реквизитов
 
@@ -342,21 +343,22 @@
 >
 > Таким образом система найдёт банковский счет, где владельцем выступаем конкретный контрагент.
 
-<img width="766" height="530" alt="image" src="https://github.com/user-attachments/assets/22a685ac-b7c8-4ece-9b83-e394b06aa17f" />
-<img width="711" height="590" alt="image" src="https://github.com/user-attachments/assets/33c6939e-27cd-4dd9-8d51-4eceab711f84" />
-<img width="758" height="97" alt="image" src="https://github.com/user-attachments/assets/d3a85ce0-9abc-4dde-95c7-38af5591a901" />
+<img width="777" height="510" alt="image" src="https://github.com/user-attachments/assets/d995b42a-65fd-404c-bec8-99f9679a813d" />
+<img width="748" height="272" alt="image" src="https://github.com/user-attachments/assets/793734ca-26ad-490a-97ab-88e71bcd3c99" />
+<img width="736" height="178" alt="image" src="https://github.com/user-attachments/assets/1b60e8f4-4fe0-40e5-ad09-8147948e39f5" />
+
 
 #### Заполнить значением
 Установка фиксированного значения для всех объектов загрузки. Для ссылочных типов доступен поиск объекта в базе:
 - **Поиск по GUID** — введите GUID объекта из базы 1С
 - **Поиск по наименованию** — введите наименование объекта для поиска
 
-<img width="775" height="507" alt="image" src="https://github.com/user-attachments/assets/17ee8696-6e8d-494d-8592-687de4703ef1" />
+<img width="771" height="887" alt="image" src="https://github.com/user-attachments/assets/f19312c6-4a6b-4e35-9332-ff0608e808d8" />
 
 #### Значение перечисления
 Выбор конкретного значения из перечисления 1С по его наименованию. Используйте этот метод когда нужно зафиксировать одно значение перечисления для всех строк загрузки. Если значение перечисления отличается в зависимости от строки файла — используйте метод «Из файла» (поиск по наименованию).
 
-<img width="772" height="723" alt="image" src="https://github.com/user-attachments/assets/4bf4264e-914d-466f-9918-bb3ceb9974c6" />
+<img width="770" height="759" alt="image" src="https://github.com/user-attachments/assets/cb141598-2480-45a4-aa6a-2e83d27ba708" />
 
 #### Алгоритм
 Произвольный код на языке 1С для вычисления значения реквизита. Используется когда значение нужно рассчитать, преобразовать или собрать из нескольких источников.
@@ -371,7 +373,7 @@
 Результат = СокрЛП(СтрокаДанных.Колонка1) + " (" + СокрЛП(СтрокаДанных.Колонка2) + ")";
 ```
 
-<img width="764" height="258" alt="image" src="https://github.com/user-attachments/assets/8530499f-c1a3-4a72-9deb-25cb670e92d1" />
+<img width="765" height="306" alt="image" src="https://github.com/user-attachments/assets/f1d0e2ed-a04c-40ef-9e53-9abb26426cfe" />
 
 ---
 
@@ -395,7 +397,7 @@
 - Будет создан документ .doc с таблицей мэппинга
 - Документ можно использовать для технического задания или согласования с заказчиком
 
-<img width="786" height="643" alt="image" src="https://github.com/user-attachments/assets/afa232f4-eb92-4dcd-ba26-017214ef6eb5" />
+<img width="779" height="479" alt="image" src="https://github.com/user-attachments/assets/d42d8f51-a011-4934-b91d-ed5e190dcb7f" />
 
 ### Загрузка ранее сохраненного мэппинга
 
@@ -427,7 +429,7 @@
 5. Нажмите **"Предварительный просмотр"** для проверки
 6. Нажмите **"Загрузить"** для выполнения загрузки
 
-<img width="1097" height="987" alt="image" src="https://github.com/user-attachments/assets/272c35d1-2807-46cc-abfe-92c064e5fe9a" />
+<img width="884" height="180" alt="11" src="https://github.com/user-attachments/assets/830831d2-004c-4f2c-a51d-6ecbaabd9cf8" />
 
 ### Предварительный просмотр
 
@@ -435,7 +437,7 @@
 - Отображает примечания и предупреждения
 - Позволяет проверить корректность мэппинга перед загрузкой
 
-<img width="1440" height="189" alt="image" src="https://github.com/user-attachments/assets/62c20614-8382-4562-8ccb-257f354af4a8" />
+<img width="947" height="835" alt="image" src="https://github.com/user-attachments/assets/d4532825-e604-4815-a5aa-99f4e9637818" />
 
 ---
 
@@ -505,8 +507,9 @@ A: Да, обработка содержит стандартный код 1С, 
 
 ---
 
-**Версия документации:** 1.2
-**Последнее обновление:** 2026/03/05
+**Версия документации:** 1.3
+**Последнее обновление:** 2026/03/09
+
 
 
 
